@@ -1,0 +1,50 @@
+
+@import url(https://rsms.me/inter/inter.css);
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1F2937;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.container{
+    max-width: 480px;
+    margin: 40px auto;
+}
+p{
+    color: #ccc;
+}
+h1{
+    margin: 0;
+    font-size: 2em;
+}
+.green{
+    color:#10B981;
+}
+button{
+    margin-top: 40px;
+    background-color: #10B981;
+    border: none;
+    color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+.passwords{
+    display: flex;
+flex-wrap: wrap;
+align-content: flex-start;
+justify-content: space-between;
+}
+.passField{
+    background: #273549;
+    width: max-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 45%;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    text-align: center;
+    color: #10B981;
+}
