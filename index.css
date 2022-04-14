@@ -11,6 +11,7 @@ html, body {
 .container{
     max-width: 480px;
     margin: 40px auto;
+    padding: 15px;
 }
 p{
     color: #ccc;
@@ -29,6 +30,7 @@ button{
     color: #eee;
     padding: 10px;
     border-radius: 5px;
+    font-size: 18px;
 }
 .passwords{
     display: flex;
@@ -41,10 +43,13 @@ justify-content: space-between;
     width: max-content;
     padding: 5px 10px;
     border-radius: 5px;
-    width: 45%;
+    width: 42%;
     height: 30px;
     line-height: 30px;
     margin-top: 10px;
     text-align: center;
     color: #10B981;
+}
+hr{
+    border: 1px solid #273549;
 }
